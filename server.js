@@ -1,6 +1,6 @@
 const express = require('express')
 const methodOverride = require('method-override')
-const budget = require('./models/budget')
+const budget = require('./models/budget.js')
 const PORT = 3000
 const app = express()
 
